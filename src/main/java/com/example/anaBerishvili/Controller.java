@@ -4,7 +4,7 @@ import javax.ws.rs.core.MediaType;
 import java.util.ArrayList;
 import java.util.List;
 
-@Path("/weather")
+@Path("/getWeather")
 public class Controller {
 
 
@@ -37,7 +37,7 @@ public class Controller {
         }
         return weatherForReturn;
     }
-    
+
 
 
 }
