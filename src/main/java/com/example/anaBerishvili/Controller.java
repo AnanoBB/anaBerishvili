@@ -7,7 +7,7 @@ import java.util.List;
 @Path("/getWeather")
 public class Controller {
 
-
+//http://localhost:8080/anaBerishvili_war_exploded/api/getWeather/weather
 
     public List<Model> getWeather() {
         List<Model> weather=new ArrayList<>();
